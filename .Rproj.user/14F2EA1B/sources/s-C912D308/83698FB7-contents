@@ -1,0 +1,42 @@
+```{r}
+vectorExample <- c(2, 6, 7)
+listExample <- list(2, 6, 7)
+
+print(vectorExample)
+print(listExample)
+```
+
+```{r}
+`小明` <- list(
+  name = "小明",
+  semester = list(`108-1` = list(
+    course = "個體經濟學",
+    teacher = "Alice",
+    score = 85,
+    course = "總體經濟學",
+    teacher = "Mark",
+    score = 78
+  )),
+  semester2 = list(`108-2` = list(
+    course = "作業研究",
+    teacher = "Jason",
+    score = 90
+  ))
+)
+```
+
+```{r}
+library(lubridate)
+`氣溫` <- list(`台北市` = list(
+  date = ymd("2020-03-31","2020-04-01"),
+  highest = 25,
+  lowest = 18
+)
+  `新北市` = list(
+    date = ymd("2020-03-31","2020-04-01"),
+    highest = 24,
+    lowest = 15
+  )
+)
+```
+
